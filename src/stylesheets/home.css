@@ -1,0 +1,45 @@
+.parallax {
+    padding: 2rem 0 !important;
+}
+
+.section {
+    padding: 2rem 8rem;
+}
+
+#fine-dining {
+    background-image: url('../assets/images/fine-dining.jpg');
+    height: 16rem;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 85%;
+}
+
+#chef-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#chef-images img {
+    height: 12rem;
+    width: 100%;
+    flex-grow: 1;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    filter: grayscale();
+    transition: all 0.3s;
+}
+
+#chef-images img:hover {
+    transform: scale(1.025, 1.025);
+    filter: grayscale(0);
+}
+
+@media screen and (max-width: 800px) {
+    #chef-images {
+        flex-wrap: wrap;
+    }
+}
