@@ -6,6 +6,7 @@ import './stylesheets/main.css';
 import loadPage from './modules/master';
 import loadHome from './modules/home';
 import loadMenu from './modules/menu';
+import loadContact from './modules/contact';
 
 loadPage();
 loadHome();
