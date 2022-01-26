@@ -20,7 +20,7 @@ header {
     padding: 1rem;
     display: flex;
     justify-content: space-between;
-    background-color: white;
+    background-color: #E8C7C4;
     color: black;
     max-width: 100%;
 }
@@ -54,7 +54,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-    color: aquamarine;
+    color: white;
     cursor: pointer;
 }
 
