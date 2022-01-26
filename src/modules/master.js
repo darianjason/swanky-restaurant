@@ -14,16 +14,13 @@ const loadHeader = content => {
     const nav = document.createElement("nav");
 
     const ul = document.createElement("ul");
-    const navBarListItems = ["home", "restaurant_menu", "info"];
 
-    navBarListItems.forEach(item => {
-        const li = document.createElement("li");
+    const navItems = ["Home", "Menu", "Contact"];
 
-        const span = document.createElement("span");
-        span.classList.add("material-icons");
-        span.textContent = item;
+    navItems.forEach(item => {
+        const li = domUtil.createText("li", item);
+        li.classList.add("nav-item");
 
-        li.append(span);
         ul.append(li);
     });
 
