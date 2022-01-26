@@ -1,7 +1,3 @@
-.parallax {
-    padding: 2rem 0 !important;
-}
-
 .section {
     padding: 2rem 8rem;
 }
@@ -9,9 +5,6 @@
 #fine-dining {
     background-image: url('../assets/images/fine-dining.jpg');
     height: 16rem;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
     background-position: 50% 85%;
 }
 
