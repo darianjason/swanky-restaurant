@@ -6,7 +6,7 @@ import PhotoChef1 from '../assets/images/chef-1.jpg';
 import PhotoChef2 from '../assets/images/chef-2.jpg';
 import PhotoChef3 from '../assets/images/chef-3.jpg';
 
-const loadHomeContent = () => {
+const loadHome = () => {
     const content = document.getElementById("content");
 
     const sectionFineDining = createFineDiningSection();
@@ -57,4 +57,4 @@ const createChefsSection = () => {
     return sectionChefs;
 };
 
-export default loadHomeContent;
+export default loadHome;
