@@ -42,7 +42,7 @@ const loadMenu = () => {
 const createMenuItem = (id, name, description) => {
     const item = document.createElement("div");
     item.id = id;
-    item.classList.add("parallax", "item");
+    item.classList.add("parallax", "menu-item");
 
     const itemName = domUtil.createText("h3", name);
     itemName.classList.add("name");
