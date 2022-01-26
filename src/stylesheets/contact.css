@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+#contact {
+    padding: 2rem 8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-item {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.material-icons {
+    font-size: 1em;
+    padding-right: 0.5em;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.contact-item a:hover {
+    color: aquamarine;
+}
