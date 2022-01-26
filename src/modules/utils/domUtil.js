@@ -23,8 +23,20 @@ const createImage = src => {
     return image;
 };
 
+const emptyContent = id => {
+    const div = document.getElementById(id);
+    
+    while (div.hasChildNodes()) {
+        if (div.lastChild.nodeName === "HEADER")
+            break;
+
+        div.removeChild(div.lastChild);
+    };
+};
+
 export {
     createSection,
     createText,
-    createImage
+    createImage,
+    emptyContent
 };
