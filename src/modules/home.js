@@ -20,7 +20,7 @@ const createFineDiningSection = () => {
     const sectionFineDining = domUtil.createSection();
 
     const headingFineDining = domUtil.createText("h2", "Redefining fine dining.");
-    const descriptionFineDining = domUtil.createText("p", "Lorem ipsum");
+    const descriptionFineDining = domUtil.createText("p", "Experience exquisiteness in an atmosphere of elegance at Swanky. Bring your date here to impress them and enjoy a romantic evening together.");
 
     sectionFineDining.append(headingFineDining, descriptionFineDining);
 
@@ -50,7 +50,7 @@ const createChefsSection = () => {
         chefImages.append(image);
     });
 
-    const descriptionChefs = domUtil.createText("p", "Lorem ipsum");
+    const descriptionChefs = domUtil.createText("p", "Prepared with the expertise of award-winning master chefs, our food is sure to infatuate your taste buds.");
 
     sectionChefs.append(headingChefs, chefImages, descriptionChefs);
 
