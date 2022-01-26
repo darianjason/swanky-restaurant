@@ -1,0 +1,40 @@
+#menu {
+    padding: 2rem 8rem;
+}
+
+.item {
+    height: 20rem;
+    max-width: 100%;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+.name {
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 0.2rem 0.2rem 0.5rem black;
+}
+
+.description {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    text-shadow: 0.1rem 0.1rem 0.2rem black;
+}
+
+#sushi {
+    background-image: url('../assets/images/sushi.jpg');
+}
+
+#pizza {
+    background-image: url('../assets/images/pizza.jpg');
+}
+
+#filet-mignon {
+    background-image: url('../assets/images/filet-mignon.jpg');
+    background-position: 50% 0%;
+}
