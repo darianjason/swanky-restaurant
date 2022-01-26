@@ -1,6 +1,10 @@
 const createSection = classNames => {
     const section = document.createElement("div");
-    section.classList.add("section", classNames);
+
+    if (classNames)
+        section.classList.add("section", classNames);
+    else
+        section.classList.add("section");
 
     return section;
 };
